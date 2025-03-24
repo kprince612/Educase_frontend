@@ -1,0 +1,107 @@
+/* Form Container */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f3f4f6; /* Light Gray */
+  }
+  
+  .form {
+    background: white;
+    padding: 2rem;
+    width: 22rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Title */
+  .form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Labels */
+  .form-label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #4b5563;
+  }
+  
+  /* Required Field Indicator */
+  .required {
+    color: #7c3aed;
+  }
+  
+  /* Input Fields */
+  .form-input {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+  }
+  
+  .form-input:focus {
+    border-color: #7c3aed;
+    box-shadow: 0 0 5px rgba(124, 58, 237, 0.5);
+  }
+  
+  /* Radio Button Group */
+  .radio-group {
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem 0 1.5rem;
+  }
+  
+  /* Custom Radio Buttons */
+  .radio-label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .radio-label input {
+    display: none;
+  }
+  
+  .radio-custom {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #7c3aed;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+  }
+  
+  .radio-label input:checked + .radio-custom {
+    background: #7c3aed;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #7c3aed;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #5b21b6;
+  }
+  

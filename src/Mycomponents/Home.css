@@ -1,0 +1,46 @@
+/* Custom styles for WelcomeScreen */
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f3f4f6; /* Equivalent to Tailwind's bg-gray-100 */
+  }
+  
+  .welcome-box {
+    text-align: center;
+    width: 20rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #111827; /* Equivalent to Tailwind's text-gray-900 */
+  }
+  
+  .description {
+    color: #6b7280; /* Equivalent to Tailwind's text-gray-600 */
+    margin-top: 0.5rem;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .create-account {
+    background-color: #7c3aed; /* Tailwind's bg-purple-600 */
+    color: white;
+  }
+  
+  .login {
+    background-color: #e9d5ff; /* Tailwind's bg-purple-200 */
+    color: #6d28d9; /* Tailwind's text-purple-700 */
+    margin-top: 0.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+  }
